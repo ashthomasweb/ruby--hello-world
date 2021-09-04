@@ -8,8 +8,8 @@ puts "Hi, #{name}! I'm Ruby!"
 
 puts "Let's do a math problem."
 puts "Please pick two numbers."
-num1 = gets.chop
-num2 = gets.chop
+num1 = gets.chop.to_i
+num2 = gets.chop.to_i
 puts "I'll add these up. It's #{num1 + num2}!"
 puts "We can learn more operators later, okay #{name}?"
 
