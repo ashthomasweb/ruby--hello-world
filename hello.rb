@@ -39,8 +39,8 @@ puts "We can learn more operators later, okay #{$name}?"
 num1 = num1.to_i
 num2 = num2.to_i
 
-print "Here is a string"
-print "Here is another string"
+print "Here is a string."
+print "Here is another string!"
 puts "Did you learn about my newline gotcha #{$name}?"
 
 puts "#{$name}, what's your favorite number?"
